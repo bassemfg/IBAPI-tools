@@ -60,7 +60,7 @@ while True:
         dt=ticks[0].time
         print ('Getting tick data for ', dt)
 
-df_ticks.to_csv(r'c:\test\IB-USH19-data.csv')
+df_ticks.to_csv(r'c:\test\IB-USM19-data.csv')
 print(df_ticks)
 #%%
 ib.disconnect()
